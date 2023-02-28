@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Anshu's forms</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback form</h1>
+    <form method="get">
+      <h3>Are from india inside of india or outside of India</h3>
+
+      <!-- using radio button for selecting options -->
+      <label for="inind">Inside: </label>
+      <input id="inind" type="radio" name="loc" value="" />
+      <!-- using radio button for selecting options -->
+      <label for="outind">Outside: </label>
+      <input id="outind" type="radio" name="loc" value="" /> <br /><br />
+
+      <h3>How was our services</h3>
+      <br />
+      <em>select number of stars </em>
+
+      <!-- drop down menu  -->
+      <select name="stars">
+        <option value="excellent">5 stars</option>
+        <option value="great">4 stars</option>
+        <option value="okay">3 stars</option>
+        <option value="improvment">2 stars</option>
+        <option value="poor">1 star</option>
+      </select>
+      <br />
+      <br />
+      <h3>Any Other feedback</h3>
+      <!--Text Area -->
+      <textarea name="mytext" rows="5" cols="40"> </textarea><br />
+      <h3>Enter your email :</h3>
+      <input type="email" name=" " placeholder="email" /><br />
+      <h3>Enter Password</h3>
+      <input type="password" name=" " placeholder="password" /><br />
+      <h3>Choose Your fav color</h3>
+      <input type="color" name=" " value="color" /><br /><br />
+
+      <input type="submit" name="submit" value="Submit " />
+    </form>
+  </body>
+</html>
