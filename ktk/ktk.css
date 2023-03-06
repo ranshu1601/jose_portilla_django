@@ -1,0 +1,13 @@
+body {
+    background-color: #63f542;
+}
+
+img {
+    margin-left: 300px;
+}
+
+h1 {
+    color: aliceblue;
+    border-color: tomato;
+    border-radius: 50%;
+}
