@@ -1,0 +1,244 @@
+body {
+    background-color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    width: auto;
+    background-color: #fdf8f4;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #000000;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #e8c7c7;
+}
+
+#img-logo {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    margin-right: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    overflow: hidden;
+    width: auto;
+}
+
+.content li {
+    display: inline;
+    float: left;
+}
+
+.content li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#work-img {
+    height: 750px;
+    width: 1400px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-img {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 7.5em;
+    transform: translate(-50%, -50%);
+}
+
+.big-font-work {
+    margin-top: 150px;
+    font-size: 2.0em;
+    font-weight: bold;
+    line-height: 1.6;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.normal-font-work {
+    margin-top: -19px;
+    font-size: 1.4em;
+    line-height: 1.9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.color-box-yellow {
+    display: block;
+    background-color: #fbffa7;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+#lady-walking {
+    height: 500px;
+    width: 450px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 45cm;
+    left: 27cm;
+}
+
+#keyboard {
+    height: 700px;
+    width: 850px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 42cm;
+    right: 20cm;
+}
+
+.color-box-green {
+    display: block;
+    background-color: #b6ffc0;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#teacher {
+    height: 370px;
+    width: 370px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 110cm;
+    left: 200px;
+}
+
+#computer-teacher {
+    height: 580px;
+    width: 650px;
+    display: block;
+    position: absolute;
+    top: 112cm;
+    right: 190px;
+}
+
+#ablenton {
+    height: 400px;
+    width: 490px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 123cm;
+    left: 200px;
+}
+
+#photu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 750px;
+    width: 1400px;
+    align-self: center;
+}
+
+.color-box-purple {
+    display: block;
+    background-color: #d5b3ff;
+    height: 1000px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#lady-work {
+    height: 450px;
+    width: 490px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 197.5cm;
+    left: 200px;
+}
+
+#meeting {
+    height: 700px;
+    width: 690px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 194cm;
+    right: 170px;
+}
+
+.color-box-blue {
+    display: block;
+    background-color: #b1c5ff;
+    height: 750px;
+    width: 1400px;
+    align-self: center;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#blur {
+    height: 750px;
+    width: 690px;
+    align-self: center;
+    display: block;
+    position: absolute;
+    top: 236.85cm;
+    left: 145px;
+}
+
+.blur-text {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 245cm;
+    left: 31cm;
+    font-size: 2em;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    line-height: 1.6;
+}
